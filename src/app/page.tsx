@@ -10,11 +10,17 @@ export default function HomePage() {
     <main className="flex min-h-screen items-center justify-center bg-neutral-800 text-white">
       <div className="h-screen w-screen">
         <ResizablePanelGroup direction="horizontal">
-          <ResizablePanel className="flex items-center justify-center">
+          <ResizablePanel
+            className="flex items-center justify-center"
+            defaultSize={50}
+          >
             <ImagePane />
           </ResizablePanel>
           <ResizableHandle />
-          <ResizablePanel className="flex items-center justify-center">
+          <ResizablePanel
+            className="flex items-center justify-center"
+            defaultSize={50}
+          >
             Two
           </ResizablePanel>
         </ResizablePanelGroup>

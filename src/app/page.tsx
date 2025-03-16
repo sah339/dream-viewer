@@ -13,13 +13,15 @@ export default function HomePage() {
           <ResizablePanel
             className="flex items-center justify-center"
             defaultSize={50}
+            minSize={25}
           >
             <ImagePane />
           </ResizablePanel>
-          <ResizableHandle />
+          <ResizableHandle withHandle />
           <ResizablePanel
             className="flex items-center justify-center"
             defaultSize={50}
+            minSize={25}
           >
             Two
           </ResizablePanel>

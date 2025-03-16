@@ -22,7 +22,7 @@ const imageData = [
 
 export default function ImagePane() {
   return (
-    <div className="relative mx-auto px-5">
+    <div className="relative m-auto">
       <Carousel className="row-span-2 mx-auto flex max-w-sm flex-col">
         <CarouselContent className="flex">
           {imageData.map((image, id) => {

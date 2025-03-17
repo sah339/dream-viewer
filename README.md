@@ -4,7 +4,7 @@ Frontend to interact with 3D scene generation models and LLMs for textual to sce
 
 ## Plan
 
-- [ ] Setup Basic UI
+- [x] Setup Basic UI
 - [ ] Mock data for images + conversation
 - [ ] Setup websocket
 - [ ] Connect chat
